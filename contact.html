@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Somerville Cookie Co. offers cookie catering and event delivery in Somerville and Medford.">
+        <title>Contact | Somerville Cookie Co.</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- helps keyboard users jump straight to the page content -->
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="wrap header-row">
+                <a class="brand" href="index.html">Somerville Cookie Co.<span>BAKED TO BRING PEOPLE TOGETHER</span></a>
+                <nav aria-label="Main navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="catering.html">Catering</a></li>
+                        <li><a href="contact.html" aria-current="page">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main">
+            <section class="page-heading">
+                <div class="wrap">
+                    <p class="eyebrow">Let's talk dessert</p>
+                    <h1>Tell us what<br>you're planning.</h1>
+                    <p>Start with a date and a guest count. We will help with the rest.</p>
+                </div>
+            </section>
+            <section class="section">
+                <div class="wrap contact-grid">
+                    <div>
+                        <h2>Close to home.</h2>
+                        <p><strong>Service area</strong><br>Somerville and Medford, Massachusetts</p>
+                        <p><strong>Hours</strong><br>Daily, 4 p.m. to 2 a.m.</p>
+                        <p><strong>Phone</strong><br><a href="tel:+16175550142">(617) 555-0142</a></p>
+                        <p><strong>Email</strong><br><a href="mailto:hello@somervillecookie.example">hello@somervillecookie.example</a></p>
+                        <p><strong>Pickup</strong><br>By appointment in Somerville. Pickup details are provided with a confirmed booking.</p>
+                        <p>
+                            Please allow 72 hours for event requests.
+                            Include your location and any ingredient
+                            questions when discussing a booking.
+                        </p>
+                        <p class="small">
+                            The phone number and email are fictional
+                            contact details for this class project.
+                        </p>
+                    </div>
+                    <div>
+                        <form action="#" method="get">
+                            <h2>Event inquiry</h2>
+                            <p class="small" id="form-note">
+                                Class project demonstration: this
+                                form does not send a message or book
+                                an event. All fields are required.
+                            </p>
+                            <label for="name">Your name</label>
+                            <input id="name" name="name" type="text" autocomplete="name" required>
+                            <label for="email">Email address</label>
+                            <input id="email" name="email" type="email" autocomplete="email" required>
+                            <label for="event">Type of event</label>
+                            <select id="event" name="event" required>
+                                <option value="">Choose an event type</option>
+                                <option>Campus gathering</option>
+                                <option>Birthday or celebration</option>
+                                <option>Office event</option>
+                                <option>Other gathering</option>
+                            </select>
+                            <label for="date">Event date</label>
+                            <input id="date" name="date" type="date" required>
+                            <label for="guests">Number of guests</label>
+                            <input id="guests" name="guests" type="number" min="1" max="1000" required>
+                            <label for="message">Event details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Location, preferred time, and any questions" required>
+                            </textarea>
+                            <button class="button" type="submit" aria-describedby="form-note">
+                                Submit Demo Inquiry
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="wrap">
+                <div class="footer-row">
+                    <div>
+                        <a class="brand" href="index.html">Somerville Cookie Co.</a>
+                        <p class="small">Fresh cookies. Close to home.<br>Somerville &amp; Medford · Daily, 4 p.m. to 2 a.m.</p>
+                    </div>
+                    <nav aria-label="Footer navigation">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="catering.html">Catering</a></li>
+                            <li><a href="contact.html" aria-current="page">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <p class="footer-note">
+                    &copy; 2026 Somerville Cookie Co.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
